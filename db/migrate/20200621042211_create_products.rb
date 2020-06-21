@@ -7,7 +7,6 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.text :description
       t.string :size, array: true
       t.text :colour, array: true
-      t.references :category
 
       t.timestamps
     end
